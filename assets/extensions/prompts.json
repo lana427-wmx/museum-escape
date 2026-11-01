@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "base": "Use case: historical-scene / outpainting. Edit the supplied game map into ONE continuous larger landscape, 3:2 aspect ratio. The source image must occupy EXACTLY the middle 50% of the output width and middle 50% of output height, from (25%,25%) to (75%,75%). Preserve the ENTIRE original image there without moving, cropping or redesigning any building, road, furniture, floor or gate. Zoom out by precisely 2x and paint new scenery on all four sides. The central original remains the playable area; the new surroundings are scenery. Seamlessly continue the lines, surfaces, paths and landscape crossing the four edges of that central image. No borders around the source, no collage, no panels, no mirrored or tiled duplicates. No repeated copy of the central main structure anywhere. Same fine ink contour, antique parchment texture, restrained sage green, warm stone, cinnabar and bronze watercolor as source; exact same high oblique overhead perspective and lighting, consistent object scale. No people, NPCs, UI, labels, symbols, text or watermark. Render at high detail, landscape 3072x2048 if possible. Newly paint the outer half, do not merely enlarge the source. Scene-specific extension: ",
+  "scenes": [
+    {
+      "id": "palace",
+      "source": "palace-wmx2.png",
+      "desc": "The throne hall remains alone in the center. Beyond its upper wall add a roofed rear gallery, tiled roof slopes and a quiet bamboo garden; left and right extend side galleries then walled courtyards with trees and rock gardens, not more throne halls. South of its open central entrance continue the aligned central flagstone processional path across a forecourt, bordered by low stone balustrades, lawns and pines. Side exit meets an exterior corridor. Keep the original black pillars, single throne and gold phoenix screen untouched in the central rectangle."
+    },
+    {
+      "id": "workshop",
+      "source": "workshop-wmx2.png",
+      "desc": "Keep the single enclosed bell foundry court intact at center. Outside upper wall add a few charcoal and timber storage sheds with pottery stacks, left a quiet service lane with bamboo and stone walls, right continue the original narrow stream vertically past the right gateway with irregular willow-lined banks, bottom continue the existing front entrance path straight into a modest village lane, with small low roofs at outer corners and sparse trees. Never duplicate the furnace or bell-filled main courtyard. All exterior lanes connect precisely to existing gates."
+    },
+    {
+      "id": "road",
+      "source": "road-wmx3.png",
+      "desc": "Continue the existing blue river smoothly north and south through new meanders and reed banks, at the exact width and positions it has at the source top and bottom edges. Extend the main dirt road west and east from its edge crossing positions through woodland and low grassy hills. Keep only the ONE existing central bridge, one bell cart and one ferry pier. Do not create additional bridges, carts or piers. Upper and lower surroundings are continuous natural river valley. No buildings in the added area."
+    },
+    {
+      "id": "ritual",
+      "source": "ritual-wmx3.png",
+      "desc": "Preserve the one central ceremonial music court and its single bell rack. Above the rear wall add the roof and a rear garden; sides extend covered wooden galleries with quiet planted courtyards and a bamboo grove. Below the central gate continue its stairs and straight stone entrance axis into a broad forecourt with low walls and pines. Connect the right doorway to a garden path. No additional bell racks or duplicated main halls."
+    },
+    {
+      "id": "future",
+      "source": "future-wmx3.png",
+      "desc": "Preserve the museum exhibit hall at center, including its single armillary time device and two glass cases. Above the back wall add its tiled roof and distant planted courtyard, at both sides continue museum galleries into quiet rock gardens and narrow water courts. South of the open central entrance continue the broad polished stone walkway and steps into a formal museum garden with pines, low balustrades, and a subtle pond at the outer right. Do not duplicate the armillary, exhibit cases or main museum hall."
+    },
+    {
+      "id": "overworld",
+      "source": "overworld-wmx3.png",
+      "desc": "Preserve the central bird eye region map intact with all landmarks and river positions. Extend the blue river beyond both top and bottom edges through a larger landscape of irregular mountains, woodland, fields and reed marshes. Far western and eastern edges become natural hills and sparse winding paths. All edge paths connect, one coherent imagined Chu landscape. The existing palace, workshop, bridge, temple and camp each occur only once, do NOT add copies of landmarks. No new destination buildings or map markers in the outer scenery."
+    }
+  ]
+}

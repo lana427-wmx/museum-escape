@@ -1,0 +1,3 @@
+document.addEventListener('click',e=>{const go=e.target.closest('[data-go]');if(go){Game.Router.go(go.dataset.go,go.dataset.id);return}const b=e.target.closest('[data-action]');if(!b)return;switch(b.dataset.action){case 'city-guide':Game.UI.modal('湖北省博物馆 · 云游指引','<p>在古城画卷中，选择四处题名进入主题展厅。此处为荆楚文化艺术化场景，并非湖北省博物馆真实建筑或馆内动线。</p><p>在曾国礼乐馆选择曾侯乙编钟，即可进入楚宫。走出宫门后，沿荆楚全景地图前往各地。沿金色线索与 NPC 交谈，完成器形、铭文、编悬、乐音和出土记录五类证据。任务卡可前往下一地点，手记可回看知识与来源。</p>');break;case 'account':Game.UI.account();break;case 'settings':Game.UI.settings();break;case 'map-menu':Game.Scene.menu();break;case 'continue':{const s=Game.Store.load();if(Game.Maps[s.currentScene])Game.Router.go('map',s.currentScene,s.playerPosition);else Game.UI.toast('还没有历史地图存档，请先进入展馆。');break}}});
+// 首页立即可用，场景图片进入地点时再加载。
+Game.Router.go('home');

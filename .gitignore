@@ -1,0 +1,12 @@
+# 仅保留源文件，排除生成物与本机数据
+_site/
+node_modules/
+outputs/
+test-results/
+work/
+.env
+.env.*
+*.log
+*.zip
+.DS_Store
+Thumbs.db
