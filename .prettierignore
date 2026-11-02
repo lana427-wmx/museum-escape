@@ -1,0 +1,7 @@
+assets/
+_site/
+.git/
+node_modules/
+outputs/
+*.md
+tests/*.json

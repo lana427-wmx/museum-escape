@@ -1,2 +1,92 @@
-.agent-conversation{background:transparent!important;backdrop-filter:none!important;pointer-events:none}.agent-conversation .dialog{position:fixed;width:420px;max-height:65vh;overflow:auto;margin:0;padding:18px;background:linear-gradient(90deg,#102321cf,#10232140)!important;border:0!important;box-shadow:none!important;pointer-events:auto;transform:none!important}.agent-conversation .eyebrow,.agent-conversation .speaker-card>span,.agent-conversation .dialogue-footer small{display:none}.agent-conversation .speaker-card{padding:0;background:none;border:0}.agent-conversation p{font-size:23px;line-height:1.7}.agent-conversation h2{font-size:23px}.agent-conversation button{background:transparent;color:#d9eddf}.agent-profile{background:linear-gradient(120deg,#102630f5,#183a42ed)!important;border:1px solid #6aafb580!important;box-shadow:0 0 60px #5fbdca35!important;color:#e5eeee}.agent-profile p{font-size:19px;line-height:1.9}.agent-profile h1{font-size:30px}.agent-profile button{background:#28626a;color:white;padding:16px}
-.agent-conversation{pointer-events:auto!important}.agent-conversation .dialog{width:380px!important;max-height:55vh!important;background:#fffffff0!important;color:#111!important;border:3px solid white!important;border-radius:18px!important;box-shadow:0 0 18px #fff8!important;padding:14px 20px!important}.agent-conversation .dialog>h2,.agent-conversation .close,.agent-conversation .dialogue-footer,.agent-conversation #repeat-close{display:none!important}.agent-conversation p{color:#111!important;font:22px/1.6 sans-serif!important;margin:0!important}.agent-conversation .speaker-card{color:#111!important}.quest-panel,#quest-hud,#quest-interact,.quest-bearing,.movement-help,#quest-done{display:none!important}
+.agent-conversation {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  pointer-events: none;
+}
+.agent-conversation .dialog {
+  position: fixed;
+  width: 420px;
+  max-height: 65vh;
+  overflow: auto;
+  margin: 0;
+  padding: 18px;
+  background: linear-gradient(90deg, #102321cf, #10232140) !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  pointer-events: auto;
+  transform: none !important;
+}
+.agent-conversation .eyebrow,
+.agent-conversation .speaker-card > span,
+.agent-conversation .dialogue-footer small {
+  display: none;
+}
+.agent-conversation .speaker-card {
+  padding: 0;
+  background: none;
+  border: 0;
+}
+.agent-conversation p {
+  font-size: 23px;
+  line-height: 1.7;
+}
+.agent-conversation h2 {
+  font-size: 23px;
+}
+.agent-conversation button {
+  background: transparent;
+  color: #d9eddf;
+}
+.agent-profile {
+  background: linear-gradient(120deg, #102630f5, #183a42ed) !important;
+  border: 1px solid #6aafb580 !important;
+  box-shadow: 0 0 60px #5fbdca35 !important;
+  color: #e5eeee;
+}
+.agent-profile p {
+  font-size: 19px;
+  line-height: 1.9;
+}
+.agent-profile h1 {
+  font-size: 30px;
+}
+.agent-profile button {
+  background: #28626a;
+  color: white;
+  padding: 16px;
+}
+.agent-conversation {
+  pointer-events: auto !important;
+}
+.agent-conversation .dialog {
+  width: 380px !important;
+  max-height: 55vh !important;
+  background: #fffffff0 !important;
+  color: #111 !important;
+  border: 3px solid white !important;
+  border-radius: 18px !important;
+  box-shadow: 0 0 18px #fff8 !important;
+  padding: 14px 20px !important;
+}
+.agent-conversation .dialog > h2,
+.agent-conversation .close,
+.agent-conversation .dialogue-footer,
+.agent-conversation #repeat-close {
+  display: none !important;
+}
+.agent-conversation p {
+  color: #111 !important;
+  font: 22px/1.6 sans-serif !important;
+  margin: 0 !important;
+}
+.agent-conversation .speaker-card {
+  color: #111 !important;
+}
+.quest-panel,
+#quest-hud,
+#quest-interact,
+.quest-bearing,
+.movement-help,
+#quest-done {
+  display: none !important;
+}
